@@ -20,5 +20,5 @@ crate-type = ["staticlib", "cdylib"]
 
 [profile.release]
 debug = false
-lto = true
+lto = false
 opt-level = 's'
